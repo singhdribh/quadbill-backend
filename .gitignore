@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/QuadBillServer/.vs
+/QuadBillServer/QuadBillServer/bin
+/QuadBillServer/QuadBillServer/obj
+/QuadBillServer/QuadBillServer.Domain/bin
+/QuadBillServer/QuadBillServer.Domain/obj
+/QuadBillServer/QuadBillServer.Graphql/bin
+/QuadBillServer/QuadBillServer.Graphql/obj
+/QuadBillServer/QuadBillServer.Infrastructure/bin
+/QuadBillServer/QuadBillServer.Infrastructure/obj
+/QuadBillServer/QuadBillServer.Models/bin
+/QuadBillServer/QuadBillServer.Models/obj
+/QuadBillServer/QuadBillServer.SqlLite/bin
+/QuadBillServer/QuadBillServer.SqlLite/obj

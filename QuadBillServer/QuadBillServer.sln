@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadBillServer", "QuadBillServer\QuadBillServer.csproj", "{1A3231E1-7F17-4BDF-98DA-47B58747BC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadBillServer.Domain", "QuadBillServer.Domain\QuadBillServer.Domain.csproj", "{1AF09744-2B09-401B-A9E5-422EEA2A7489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadBillServer.Graphql", "QuadBillServer.Graphql\QuadBillServer.Graphql.csproj", "{B8AD3041-C3A5-4FC5-989C-1903ED4DB96E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadBillServer.Infrastructure", "QuadBillServer.Infrastructure\QuadBillServer.Infrastructure.csproj", "{E45FB9B3-F5CF-4053-89F6-A9C0014B5A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadBillServer.Models", "QuadBillServer.Models\QuadBillServer.Models.csproj", "{CA1C586E-7315-494D-8496-6247B85BAB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadBillServer.SqlLite", "QuadBillServer.SqlLite\QuadBillServer.SqlLite.csproj", "{F4354AC8-600C-446D-844D-2E2DB8ACBD0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3231E1-7F17-4BDF-98DA-47B58747BC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3231E1-7F17-4BDF-98DA-47B58747BC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3231E1-7F17-4BDF-98DA-47B58747BC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3231E1-7F17-4BDF-98DA-47B58747BC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF09744-2B09-401B-A9E5-422EEA2A7489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF09744-2B09-401B-A9E5-422EEA2A7489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF09744-2B09-401B-A9E5-422EEA2A7489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF09744-2B09-401B-A9E5-422EEA2A7489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AD3041-C3A5-4FC5-989C-1903ED4DB96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AD3041-C3A5-4FC5-989C-1903ED4DB96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AD3041-C3A5-4FC5-989C-1903ED4DB96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AD3041-C3A5-4FC5-989C-1903ED4DB96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45FB9B3-F5CF-4053-89F6-A9C0014B5A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45FB9B3-F5CF-4053-89F6-A9C0014B5A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45FB9B3-F5CF-4053-89F6-A9C0014B5A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45FB9B3-F5CF-4053-89F6-A9C0014B5A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1C586E-7315-494D-8496-6247B85BAB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1C586E-7315-494D-8496-6247B85BAB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1C586E-7315-494D-8496-6247B85BAB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1C586E-7315-494D-8496-6247B85BAB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4354AC8-600C-446D-844D-2E2DB8ACBD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4354AC8-600C-446D-844D-2E2DB8ACBD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4354AC8-600C-446D-844D-2E2DB8ACBD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4354AC8-600C-446D-844D-2E2DB8ACBD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B67756B-9BCC-465A-87F5-39527D07E4BE}
+	EndGlobalSection
+EndGlobal

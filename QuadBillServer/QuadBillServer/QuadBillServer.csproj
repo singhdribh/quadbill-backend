@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.Abstractions" Version="13.7.0" />
+	  <PackageReference Include="HotChocolate.AspNetCore" Version="13.7.0" />
+	  <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.5.1" />
+	  <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="13.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuadBillServer.Infrastructure\QuadBillServer.Infrastructure.csproj" />
+    <ProjectReference Include="..\QuadBillServer.SqlLite\QuadBillServer.SqlLite.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="free.quadcoder.client.certificate.with.password.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
